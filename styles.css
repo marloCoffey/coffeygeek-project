@@ -180,10 +180,10 @@ address {
   line-height: inherit;
 }
 
-/* ol,
+ol,
 ul {
-  padding-left: 2rem;
-} */
+  padding-left: 0;
+}
 
 ol li,
 ul li {
@@ -11563,10 +11563,9 @@ html {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: var(--bs-dark);
   color: #fff;
 }
 
-.copyright {
+/* .copyright {
   background-color: var(--bs-dark);
-}
+} */
