@@ -571,6 +571,15 @@ progress {
   }
 }
 
+.display {
+  display: block;
+}
+@media (min-width: 576px;) {
+  .display {
+    display: none;
+  }
+}
+
 .list-unstyled {
   padding-left: 0;
   list-style: none;
