@@ -11515,7 +11515,7 @@ html {
 }
 .masthead .masthead-subheading.typing-effect {
   width: 23ch;
-  animation: typing 4s steps(22), blink .5s step-end infinite alternate;
+  animation: typing 3s steps(22), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
 }
