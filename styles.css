@@ -11504,7 +11504,7 @@ html {
   font-family:'IBM Plex Mono', monospace;
   color:var(--bs-cream2);
 }
-.masthead .masthead-subheading.typing-demo {
+.masthead .masthead-subheading.typing-effect {
   width: 36ch;
   animation: typing 2s steps(22), blink .5s step-end infinite alternate;
   white-space: nowrap;
