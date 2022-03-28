@@ -574,7 +574,7 @@ progress {
 .display {
   display: block;
 }
-@media (min-width: 576px) {
+@media (min-width: 1200px) {
   .display {
     display: none;
   }
@@ -11520,7 +11520,7 @@ html {
   overflow: hidden;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 1200px) {
   .masthead .masthead-subheading.typing-effect {
     width: 36ch;
   }
