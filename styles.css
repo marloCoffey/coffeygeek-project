@@ -574,7 +574,7 @@ progress {
 .display {
   display: block;
 }
-@media (min-width: 576px;) {
+@media (min-width: 576px) {
   .display {
     display: none;
   }
