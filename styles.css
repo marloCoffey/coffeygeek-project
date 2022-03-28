@@ -11505,12 +11505,16 @@ html {
   color:var(--bs-cream2);
 }
 .masthead .masthead-subheading.typing-effect {
-  width: 36ch;
+  width: 23ch;
   animation: typing 2s steps(22), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 3px solid;
-  font-family: monospace;
+}
+
+@media (min-width: 576px) {
+  .masthead .masthead-subheading.typing-effect {
+    width: 36ch;
+  }
 }
 
 @keyframes typing {
