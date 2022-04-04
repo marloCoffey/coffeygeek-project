@@ -11592,6 +11592,28 @@ html {
     line-height: 2.5rem;
   }
 }
+/* skills styles */
+.skills .skill-icon {
+  background-color: var(--bs-cream2);
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin: 1em auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills svg, .skills i {
+  font-size:6rem;
+  color:var(--bs-coffee2);
+}
+
+.skills p {
+  color: var(--bs-cream2);
+  text-align: center;
+}
 
 .footer {
   padding-top: 5rem;
