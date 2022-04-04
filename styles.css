@@ -11605,12 +11605,12 @@ html {
   align-items: center;
 }
 
-.skills svg, .skills i {
+.skills .skill-icon svg, .skills .skill-icon i {
   font-size:6rem;
   color:var(--bs-coffee2);
 }
 
-.skills p {
+.skills p, .skills h5 {
   color: var(--bs-cream2);
   text-align: center;
 }
