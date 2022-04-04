@@ -11592,7 +11592,7 @@ html {
     line-height: 2.5rem;
   }
 }
-/* skills styles */
+
 .skills .skill-icon {
   background-color: var(--bs-cream2);
   width: 200px;
@@ -11605,12 +11605,14 @@ html {
   align-items: center;
 }
 
-.skills .skill-icon svg, .skills .skill-icon i {
+.skill-icon svg, 
+.skill-icon i {
   font-size:6rem;
   color:var(--bs-coffee2);
 }
 
-.skills p, .skills h5 {
+.skills p, 
+.skills h5 {
   color: var(--bs-cream2);
   text-align: center;
 }
