@@ -7793,6 +7793,12 @@ textarea.form-control-lg {
   color: rgba(var(--bs-cream2-rgb), var(--bs-text-opacity)) !important;
 }
 
+
+.text-coffee {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-coffee2-rgb), var(--bs-text-opacity)) !important;
+}
+
 .text-black {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
@@ -11568,7 +11574,7 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: rgba(56, 34, 15, .8);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
@@ -11593,7 +11599,8 @@ html {
   }
 }
 /* skill styles */
-.skills .skill-icon {
+.skills .skill-icon,
+.why-website .why-website-icon {
   background-color: var(--bs-cream2);
   width: 200px;
   height: 200px;
@@ -11605,15 +11612,34 @@ html {
   align-items: center;
 }
 
+.why-website .why-website-icon {
+  background-color: var(--bs-coffee2);
+}
+
 .skill-icon svg, 
-.skill-icon i {
+.skill-icon i,
+.why-website-icon svg, 
+.why-website-icon i {
   font-size:6rem;
   color:var(--bs-coffee2);
 }
 
+.why-website-icon svg, 
+.why-website-icon i {
+  color:var(--bs-cream2);
+}
+
 .skills p, 
-.skills h5 {
+.skills h5,
+.why-website p, 
+.why-website h5 {
   color: var(--bs-cream2);
+  text-align: center;
+}
+
+.why-website p, 
+.why-website h5 {
+  color: var(--bs-coffee2);
   text-align: center;
 }
 
